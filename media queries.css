@@ -1,0 +1,55 @@
+/* Desktop screen sizes */
+@media only screen and (min-width: 1200px) {
+    /* styles for desktop screens */
+    .hero {
+        height: 100vh;
+    }
+    .featured-shoes {
+        padding: 2em;
+    }
+    .shoe-item {
+        width: 250px;
+    }
+}
+
+/* Tablet screen sizes */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    /* styles for tablet screens */
+    .hero {
+        height: 80vh;
+    }
+    .featured-shoes {
+        padding: 1em;
+    }
+    .shoe-item {
+        width: 200px;
+    }
+}
+
+/* Mobile screen sizes */
+@media only screen and (max-width: 767px) {
+    /* styles for mobile screens */
+    .hero {
+        height: 60vh;
+    }
+    .featured-shoes {
+        padding: 0.5em;
+    }
+    .shoe-item {
+        width: 150px;
+    }
+}
+
+/* Landscape mobile screen sizes */
+@media only screen and (max-width: 479px) and (orientation: landscape) {
+    /* styles for landscape mobile screens */
+    .hero {
+        height: 40vh;
+    }
+    .featured-shoes {
+        padding: 0.2em;
+    }
+    .shoe-item {
+        width: 100px;
+    }
+}
